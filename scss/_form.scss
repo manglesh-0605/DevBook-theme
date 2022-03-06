@@ -7,7 +7,8 @@
         margin-top: 0.3rem;
         color: #888;
     }
-    input:not([type='submit']),
+
+    input:not([type='checkbox']):not([type="submit"]),
     select,
     textarea{
         display: block;
